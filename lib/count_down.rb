@@ -4,7 +4,9 @@ count = 10
 countdown = 0
 
 while count <= 10 do
-  break if count == countdown
-  puts "#{count}"
+  if count == countdown
+    puts "Happy New Year!"
+  else
+    puts "#{count}"
   count +=
 end
